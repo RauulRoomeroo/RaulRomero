@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevForum - Cerrar Sesión</title>
+    <link rel="stylesheet" href="CSS/CerrarSesion.css">
+</head>
+<body>
+
+    <div class="logout-container">
+        <div class="logout-card">
+            <h1>DevForum</h1>
+            <h2>¿Estás seguro de que quieres salir?</h2>
+            <p>Se cerrará tu sesión actual y tendrás que volver a introducir tus credenciales para acceder a tus notas.</p>
+            
+            <div class="logout-actions">
+                <a href="CreacionDeNotas.html" class="btn-cancel">Volver a mis notas</a>
+                
+                <form action="/logout" method="POST">
+                    <button type="submit" class="btn-confirm-logout"><a href="SesionCerrada.html"></a>Cerrar sesión ahora</button></a>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

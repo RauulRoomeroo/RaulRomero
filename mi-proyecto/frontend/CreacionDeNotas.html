@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Notas</title>
+    <link rel="stylesheet" href="CSS/CrearNotas.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="logo">DevForum</h1>
+            <div class="user-info">
+                <span>Hola, <strong>Usuario</strong></span>
+                <a href="CerrarSesion.html"><button class="btn-logout">Cerrar sesión</button></a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <header class="main-header">
+            <h2>Mis Notas</h2>
+            <button class="btn-primary" id="addNoteBtn">
+                <a href="Crear_Nota.html"><i class="fas fa-plus"></i> Nueva Nota</a>
+            </button>
+        </header>
+
+        <section class="notes-grid">
+            <article class="note-card">
+                <div class="note-content">
+                    <h3>Configuración de API</h3>
+                    <p>Recordar actualizar los tokens de acceso antes del viernes y revisar la documentación de OAuth2...</p>
+                    <span class="note-date">04 Mar, 2024</span>
+                </div>
+                <div class="note-actions">
+                    <button class="btn-icon edit"><i class="fas fa-edit"></i></button>
+                    <button class="btn-icon delete"><i class="fas fa-trash"></i></button>
+                </div>
+            </article>
+
+            <article class="note-card">
+                <div class="note-content">
+                    <h3>Ideas para el Foro</h3>
+                    <p>Implementar un sistema de medallas para usuarios activos y mejorar el resaltado de sintaxis.</p>
+                    <span class="note-date">02 Mar, 2024</span>
+                </div>
+                <div class="note-actions">
+                    <button class="btn-icon edit"><i class="fas fa-edit"></i></button>
+                    <button class="btn-icon delete"><i class="fas fa-trash"></i></button>
+                </div>
+            </article>
+        </section>
+    </main>
+
+</body>
+</html>
