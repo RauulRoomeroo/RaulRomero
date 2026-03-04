@@ -1,0 +1,73 @@
+/* Contenedor principal del formulario */
+.create-note-container {
+    background-color: #f0f2f5; /* Color de fondo suave según la imagen */
+    padding: 20px;
+    font-family: sans-serif;
+    max-width: 500px;
+}
+
+.create-note-container h2 {
+    color: #333;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+/* Alineación de los grupos de entrada */
+.form-group {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    width: 80px; /* Ancho fijo para las etiquetas para que los inputs se alineen */
+    font-size: 18px;
+    color: #444;
+    padding-top: 5px;
+}
+
+/* Estilo de los inputs y textarea */
+.form-group input, 
+.form-group textarea {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #888;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+.form-group textarea {
+    height: 150px;
+    resize: none; /* Evita que el usuario cambie el tamaño si prefieres diseño fijo */
+}
+
+/* Botones inferiores */
+.form-actions {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.btn-cancel {
+    background-color: #fff;
+    border: 1px solid #777;
+    padding: 8px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-save {
+    background-color: #007bff; /* Azul vibrante de la imagen */
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-save:hover {
+    background-color: #0056b3;
+}

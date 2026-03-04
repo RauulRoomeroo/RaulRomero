@@ -1,0 +1,86 @@
+/* Configuración General */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5; /* El gris de fondo de tus capturas */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Tarjeta Central */
+.logout-container {
+    width: 100%;
+    max-width: 450px;
+    padding: 20px;
+}
+
+.logout-card {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.logout-card h1 {
+    margin: 0 0 20px 0;
+    font-size: 28px;
+    font-weight: bold;
+    color: #000;
+}
+
+.logout-card h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.logout-card p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+/* Acciones y Botones */
+.logout-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.btn-confirm-logout {
+    width: 100%;
+    background-color: #007bff; /* El azul de tu botón "Guardar Nota" */
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn-confirm-logout:hover {
+    background-color: #0056b3;
+}
+
+.btn-cancel {
+    text-decoration: none;
+    color: #555;
+    font-size: 14px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fff;
+    transition: background 0.2s;
+}
+
+.btn-cancel:hover {
+    background-color: #f8f9fa;
+    color: #333;
+}
